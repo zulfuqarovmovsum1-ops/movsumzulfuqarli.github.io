@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mövsüm Zülfüqarovun proqramlaşdırma və öyrənmə maraqları haqqında şəxsi təqdimat səhifəsi.">
+  <meta name="theme-color" content="#07172d">
+  <title>Mövsüm Zülfüqarov | Şəxsi səhifə</title>
+  <style>
+    :root{--bg:#061327;--panel:#0c2140;--panel2:#10294b;--blue:#20baff;--cyan:#55e0ff;--text:#f4f8ff;--muted:#c1d1e9;--border:rgba(130,190,255,.18)}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6}
+    a{color:inherit}
+    .topbar{position:sticky;top:0;z-index:5;background:rgba(4,15,31,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    .nav{max-width:1180px;margin:auto;padding:15px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{font-weight:800;font-size:clamp(1rem,2.6vw,1.45rem);text-decoration:none;white-space:nowrap}
+    .brand span{color:var(--cyan);margin-right:8px}
+    nav{display:flex;gap:20px;flex-wrap:wrap}
+    nav a{text-decoration:none;color:var(--muted);font-size:.94rem}
+    nav a:hover{color:var(--cyan)}
+    .hero{background:linear-gradient(100deg,rgba(3,19,42,.96),rgba(5,33,69,.78),rgba(4,17,36,.42)),radial-gradient(ellipse at 80% 20%,#315c94,transparent 45%),linear-gradient(140deg,#102c50,#07172d 72%);border-bottom:1px solid var(--border)}
+    .hero-inner{max-width:1180px;margin:auto;padding:42px 24px;display:grid;grid-template-columns:250px 1fr;gap:32px;align-items:center}
+    .portrait{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 35%;border:3px solid var(--blue);border-radius:22px;box-shadow:0 0 35px rgba(32,186,255,.15)}
+    .eyebrow{color:var(--cyan);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem}
+    h1{font-size:clamp(2.2rem,5.5vw,4rem);line-height:1.08;margin:10px 0 12px;letter-spacing:-.04em}
+    .subtitle{font-size:clamp(1.1rem,2.5vw,1.5rem);color:#c6ddff;margin:0 0 20px}
+    .quote{margin-top:24px;color:#d4e5ff;font-style:italic;border-left:3px solid var(--cyan);padding-left:14px}
+    .wrap{max-width:1180px;margin:auto;padding:24px}
+    .grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}
+    .card{background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:18px;padding:23px;box-shadow:0 12px 28px rgba(0,0,0,.12)}
+    .card h2{margin:0 0 12px;font-size:1.28rem}
+    .icon{font-size:1.45rem;margin-right:8px}
+    p{color:var(--muted);margin:0 0 12px}
+    .chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
+    .chip{border:1px solid rgba(85,224,255,.22);background:rgba(32,186,255,.09);border-radius:999px;padding:7px 11px;color:#e2f5ff;font-size:.9rem}
+    .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .project{padding:20px;border-radius:16px;background:#0b1d37;border:1px solid var(--border)}
+    .project h3{margin:0 0 7px}
+    .contact{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+    .button{display:inline-block;text-decoration:none;background:linear-gradient(90deg,#138cf2,#20c6ed);color:#00172b;font-weight:800;padding:11px 17px;border-radius:12px}
+    footer{border-top:1px solid var(--border);padding:24px;text-align:center;color:#9eb4d3;font-size:.9rem}
+    .small{font-size:.88rem;color:#93aac9}
+    @media(max-width:850px){.hero-inner{grid-template-columns:190px 1fr}.grid{grid-template-columns:1fr 1fr}.grid .card:last-child{grid-column:1/-1}.projects{grid-template-columns:1fr 1fr}nav{gap:12px}}
+    @media(max-width:600px){.nav{align-items:flex-start;flex-direction:column}.hero-inner{grid-template-columns:1fr;text-align:center;padding-top:28px}.portrait{width:min(220px,75%);margin:auto}.quote{display:inline-block;text-align:left}.grid,.projects{grid-template-columns:1fr}.grid .card:last-child{grid-column:auto}.wrap{padding:16px}.card{padding:20px}}
+  </style>
+</head>
+<body>
+<header class="topbar">
+  <div class="nav">
+    <a class="brand" href="#ana"><span>⌘</span> Mövsüm Zülfüqarov</a>
+    <nav aria-label="Əsas menyu">
+      <a href="#ana">Ana səhifə</a><a href="#haqqimda">Haqqımda</a><a href="#maraqlar">Maraqlarım</a><a href="#layiheler">Layihələr</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="ana">
+  <div class="hero-inner">
+    <img class="portrait" src="assets/movsum-profile.jpg" alt="Mövsümün profil şəkli">
+    <div>
+      <div class="eyebrow">Şəxsi təqdimat səhifəsi</div>
+      <h1>Mövsüm Zülfüqarov</h1>
+      <p class="subtitle">Kiçik bir xəyal, böyük gələcək!</p>
+      <p>Salam! Bu mənim şəxsi veb-səhifəmdir. Burada maraqlarım, öyrəndiklərim və hazırladığım layihələr haqqında paylaşacağam.</p>
+      <div class="quote">“Daha yaxşı bir versiyam olmaq üçün çalışıram.”</div>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <section class="grid" id="haqqimda">
+    <article class="card">
+      <h2><span class="icon">👋</span>Haqqımda</h2>
+      <p>Yeni şeylər öyrənməyi, texnologiyanı araşdırmağı və öz ideyalarımı kiçik layihələrə çevirməyi sevirəm.</p>
+      <p>Məqsədim proqramlaşdırma bacarıqlarımı inkişaf etdirmək və gələcəkdə faydalı proqramlar yaratmaqdır.</p>
+    </article>
+    <article class="card">
+      <h2><span class="icon">⚙️</span>Öyrəndiklərim</h2>
+      <p>Hazırda yeni biliklər qazanır və addım-addım məşq edirəm.</p>
+      <div class="chips"><span class="chip">Python</span><span class="chip">İngilis dili</span><span class="chip">Riyaziyyat</span><span class="chip">Kompüter</span></div>
+    </article>
+    <article class="card" id="maraqlar">
+      <h2><span class="icon">⭐</span>Maraqlarım</h2>
+      <div class="chips"><span class="chip">💻 Proqramlaşdırma</span><span class="chip">🎮 Oyunlar</span><span class="chip">🧩 Məntiq</span><span class="chip">📚 Kitab oxumaq</span><span class="chip">🌱 Yeni şeylər öyrənmək</span></div>
+    </article>
+  </section>
+
+  <section style="margin-top:24px" id="layiheler">
+    <h2 style="font-size:1.7rem;margin:0 0 14px">🚀 Layihələrim</h2>
+    <div class="projects">
+      <article class="project"><h3>🐍 Python məşqləri</h3><p>Python-un əsaslarını öyrənmək üçün kiçik proqramlar.</p></article>
+      <article class="project"><h3>🎮 Sadə oyun ideyaları</h3><p>Oyun məntiqini və düymələrlə idarəetməni sınamaq.</p></article>
+      <article class="project"><h3>🌐 Bu veb-səhifə</h3><p>HTML və CSS ilə hazırlanmış şəxsi təqdimat səhifəsi.</p></article>
+    </div>
+  </section>
+
+  <section class="card contact" style="margin-top:24px">
+    <div><h2 style="margin:0 0 5px">✨ Əlaqə</h2><p style="margin:0">Yeni biliklərə və layihə ideyalarına açığam!</p><div class="small">Şəxsi telefon və ünvan məlumatları bu səhifədə paylaşılmır.</div></div>
+    <a class="button" href="#ana">Yuxarı qayıt ↑</a>
+  </section>
+</main>
+<footer>© Mövsüm Zülfüqarov · Öyrən, yarat, inkişaf et.</footer>
+</body>
+</html>
